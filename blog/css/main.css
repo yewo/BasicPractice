@@ -424,6 +424,34 @@ footer span {
     right: 0;
     top: 0;
     vertical-align: middle;
-    width: 7em;
-
+    width: 7em
 }
+
+/*回到顶部*/
+.back-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    display: block;
+    border-radius: 1px;
+    border: 1px solid #ddd;
+}
+.back-top:after {
+    background-image: url(img/arrow.svg);
+    background-position: center;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    margin: 0 auto;
+    padding-top: 48px;
+    width: 1.3em;
+}
+.back-top:hover {
+    background-color: rgba(255,255,255,0.7);
+}
+
+
