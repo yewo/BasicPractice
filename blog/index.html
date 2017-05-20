@@ -16,7 +16,9 @@
         <!--导航-->
         <nav>
             <ul>
-                <li><a href="#">MENU</a></li>
+                <li id='sidebar_trigger'>
+                    <a href="#">MENU</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -131,5 +133,33 @@
             <span>&copy; 2017 all rights Yeel · HTML5</span>
         </div>
     </footer>
+    <!--导航遮罩层-->
+    <div class="maskup">
+    </div>
+    <!--导航侧边栏-->
+    <div id="sidebar">
+        <ul>
+            <li>
+                <a href="index.html">生活记事</a>
+            </li>
+            <li>
+                <a href="article.html">吃喝玩乐</a>
+            </li>
+            <li>
+                <a href="#">喜闻乐见</a>
+            </li>
+            <li>
+                <a href="#">设计艺术</a>
+            </li>
+            <li>
+                <a href="#">关于我们</a>
+            </li>
+        </ul>
+        <a href="#" class='close'></a>
+    </div>
+    <!--回到顶部-->
+    <a class='back-top' href="#"></a>
+    <script src='js/jquery.js'></script>
+    <script src='js/main.js'></script>
 </body>
 </html>
